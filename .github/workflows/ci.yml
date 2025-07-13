@@ -22,10 +22,10 @@ jobs:
 
       - name: Build with Maven
         run: |
-          cd Aispire
+          cd AIspire
           ./mvnw clean install
 
       - name: Run Tests
         run: |
-          cd Aispire
+          cd AIspire
           ./mvnw test
