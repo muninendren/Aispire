@@ -20,6 +20,9 @@ jobs:
           java-version: '17'
           distribution: 'temurin'
 
+      - name: Give mvnw execute permission
+        run: chmod +x AIspire/mvnw
+
       - name: Build with Maven
         run: |
           cd AIspire
