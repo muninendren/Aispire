@@ -129,22 +129,6 @@ public class GoalServiceImpl implements GoalService {
            }
         }
 
-//        for (String line : lines) {
-//            if (!line.trim().isEmpty()) {
-//                Milestone milestone= new Milestone();
-//                try {
-//                    milestone = parseMilestoneLine(line);
-//                }
-//                catch (Exception e){
-//                    log.info(e.getMessage());
-//                    continue;
-//                }
-//                if(!milestone.getDescription().isEmpty()) {
-//                    milestones.add(milestone);
-//                }
-//            }
-//        }
-
         return milestones;
     }
 
